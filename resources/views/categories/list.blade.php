@@ -14,7 +14,14 @@
 <body>
 
 <div class="container">
-  <h2> Categories  <a class="btn btn-info" href="/category-create">Categories</a></h2>
+  <br>
+
+ <h1>Categories</h1>
+ <br>
+
+  <a class="btn btn-info" href="/post"> Posts </a>
+
+  {{-- <h2> Categories  <a class="btn btn-info" href="/category-create">Categories</a></h2>
              
   <table class="table table-hover">
     <thead>
@@ -43,7 +50,7 @@
       @endforeach
       
     </tbody>
-  </table>
+  </table> --}}
 </div>
 
 </body>

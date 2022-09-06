@@ -52,7 +52,7 @@
 <div class="container">
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto  border-b border-gray-200" >
         <div class="classcon" style="margin-top: 20px;">
-            <img src="{{asset('/storage/images/'. $post->image)}}" alt="no image"   width="100%" height="50">
+            <img src="{{asset('/storage/images/'. $post->image)}}"   width="1000" height="500" class='img img-responsive' alt="no image"   width="100%" height="50">
         </div>
     
         <div>
