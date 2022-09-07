@@ -15,7 +15,7 @@ return new class extends Migration
     {
         
             Schema::create('post', function (Blueprint $table){
-                $table->increments('id');
+                $table->increments('id')->default('0');
                 $table->string('name');
                $table->unsignedBigInteger('user_id');
                 $table->string('title');

@@ -22,7 +22,9 @@
   @endif
     <form action="{{url('add-post')}}" method="POST" enctype="multipart/form-data">
         @csrf
+        
         <label style="margin-top: 20px;">Title</label>
+
         <input type="text"  id="txtName" name="title" class="form-control">
         <label>Name</label>
         <input type="text"  id="txtName" name="name" class="form-control">
