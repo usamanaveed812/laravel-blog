@@ -22,7 +22,7 @@ use App\Http\Controllers\UserController;
 // });
 
 
-Route::get('/post',[PostController::class,'index']);
+Route::get('/',[PostController::class,'index']);
 Route::get('/post-create',[PostController::class,'create'])->middleware(['auth']);
 Route::post('/post-store',[PostController::class,'store']);
 Route::get('/post-show/{id}',[PostController::class,'show']);
