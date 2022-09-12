@@ -12,7 +12,7 @@
                 <div class="p-6 bg-white border-b border-gray-200">
                 <div class="pt-15 w-4/5 m-auto">
         <a 
-            href="/post"
+            href="/post-create"
             style="border: 1px solid black; background-color:blueviolet"
             
             class="btn btn-success">
